@@ -1,0 +1,17 @@
+# Ignore build and distribution files
+dist/
+build/
+versatile_globber.egg-info/
+
+setup.py
+
+# Ignore tests files
+tests/
+
+# Ignore env files
+.env
+venv/
+
+# Ignore python cached files
+__pycache__/ 
+*.py[cod]

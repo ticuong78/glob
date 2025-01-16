@@ -1,0 +1,9 @@
+# Include essential files
+include README.md LICENSE.txt MANIFEST.in *.env
+include ./src
+
+# Exclude test files
+exclude ./tests .env
+
+# Recurisve include
+recursive-include *.txt
