@@ -6,7 +6,7 @@ This project is created due to its author inconvenience
 
 ## Description
 
-This project helps its user to glob many files at a time as possible, it accepts many folder paths and extensions pattern (for e.g '.exe' or '.msi) as its parameters and returns a list of globbed files that match the extensions
+This project helps its user to glob many files as much as possible at a time, it accepts many folder paths and extensions pattern (for e.g '.exe' or '.msi) as its parameters and returns a list of globbed files that match the extensions
 
 ## Contributing
 
