@@ -1,6 +1,11 @@
 from abc import ABC, abstractmethod
 
 class Globber(ABC):
+    @property
     @abstractmethod
-    def _glob(self):
+    def all(self):
+        pass
+
+    @abstractmethod
+    def _globs(self):
         pass
