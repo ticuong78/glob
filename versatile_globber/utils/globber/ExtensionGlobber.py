@@ -8,7 +8,7 @@ from typing import List, Union
 from versatile_globber.utils.base._Globber import Globber
 
 class ExtensionGlobber(Globber):
-    def __init__(self, paths: List[Union[Path, PathLike, str]], extensions: List):
+    def __init__(self, paths: List[Union[Path, PathLike, str]], extensions: List[str]):
         self._paths = paths
         self._extensions = extensions
 
