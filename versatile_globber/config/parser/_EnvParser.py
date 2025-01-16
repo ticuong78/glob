@@ -1,11 +1,11 @@
 import os
 import dotenv as de
 
-from src.config.base._Parser import Parser
-from src.config.base._PreProcess import PreProcessor
+from versatile_globber.config.base._Parser import Parser
+from versatile_globber.config.base._PreProcess import PreProcessor
 
-from src.env import AVAILABLE_ENVS
-from src.ext import AVAILABLE_EXTS
+from versatile_globber.env import AVAILABLE_ENVS
+from versatile_globber.ext import AVAILABLE_EXTS
 
 de.load_dotenv()
 

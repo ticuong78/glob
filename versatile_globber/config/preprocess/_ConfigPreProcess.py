@@ -1,4 +1,4 @@
-from src.config.base._PreProcess import PreProcessor
+from versatile_globber.config.base._PreProcess import PreProcessor
 
 from termcolor import colored
 

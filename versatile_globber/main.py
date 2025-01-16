@@ -1,5 +1,5 @@
-from src.config import *
-from src.utils import *
+from versatile_globber.config import *
+from versatile_globber.utils import *
 
 def main(CONFIG: dict):
     input_paths = CONFIG['envs']['INPUT_PATH']

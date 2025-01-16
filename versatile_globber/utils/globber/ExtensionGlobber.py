@@ -5,7 +5,7 @@ from os import PathLike
 from pathlib import Path
 from typing import List, Union
 
-from src.utils.base._Globber import Globber
+from versatile_globber.utils.base._Globber import Globber
 
 class ExtensionGlobber(Globber):
     def __init__(self, paths: List[Union[Path, PathLike, str]], extensions: List):

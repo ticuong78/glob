@@ -3,7 +3,7 @@ import os
 from os import PathLike
 from pathlib import Path
 from typing import List, Union
-from src.utils.base._Categorizer import Categorizer
+from versatile_globber.utils.base._Categorizer import Categorizer
 
 class PathCategorize(Categorizer):
     def categorize(self, paths: List[Union[PathLike, Path, str]]):
