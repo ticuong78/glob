@@ -1,9 +1,9 @@
 # Include essential files
 include README.md MANIFEST.in
-include versatile_globber/*.py
+include versatile_globber/*
 include requirements.txt
 include MANIFEST.txt
-include LICENSE.txt 
+include LICENSE.txt
 
 # Exclude test files
 exclude **/*.env
