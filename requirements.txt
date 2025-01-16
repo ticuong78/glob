@@ -1,2 +1,5 @@
 python-dotenv==1.0.1
+setuptools==75.8.0
+style==1.1.0
 termcolor==2.5.0
+update==0.0.1
