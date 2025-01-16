@@ -1,1 +1,0 @@
-AVAILABLE_EXTS = ['.exe', '.ole']

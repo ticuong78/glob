@@ -1,4 +1,3 @@
-from versatile_globber.utils.base._Globber import Globber
-from versatile_globber.utils.globber.ExtensionGlobber import ExtensionGlobber
+from versatile_globber.utils import *
 
 __all__ = ['Globber', 'ExtensionGlobber']
