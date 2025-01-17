@@ -17,7 +17,7 @@ class ExtensionGlobber(Globber):
         return self._globs(self._paths, self._extensions)
 
     def _glob(self, path: Union[Path, PathLike, str], extension: str) -> Union[Path, PathLike, str]:
-        return glob.glob(str(path) + f"/*{extension}")
+        return glob.glob(f"{str(path)}/*{extension}")
     
     def _globs(self, paths: List[Union[Path, PathLike, str]], extensions: List) -> List[Union[Path, PathLike, str]]:
         files = []
