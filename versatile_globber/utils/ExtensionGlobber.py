@@ -25,6 +25,5 @@ class ExtensionGlobber(Globber):
         for extension in extensions:
             for path in paths:
                 files += self._glob(path, extension)
-                print(self._glob(path, extension))
 
         return files
